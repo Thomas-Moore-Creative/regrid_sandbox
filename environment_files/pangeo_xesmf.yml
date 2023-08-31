@@ -1,0 +1,15 @@
+name: pangeo_xesmf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - xesmf
+  - ca-certificates
+  - openssl
+  - dask
+  - netcdf4
+  - certifi
+  - nodejs
+  - dask-labextension
+prefix: /g/data/v14/tm4888/miniconda3/envs/pangeo_xesmf
